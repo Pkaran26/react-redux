@@ -24,10 +24,10 @@ class PostForm extends Component {
     }
     console.log('createPost called');
     this.props.createPost(post);
-    /*this.setState({
+    this.setState({
       title:'',
       body:'',
-    });*/
+    });
   }
   render(){
     return(
